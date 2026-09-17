@@ -1,11 +1,11 @@
-package com.arthur.pokedex.ui.home
+package com.pokedex.app.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.arthur.pokedex.data.repository.PokemonRepository
-import com.arthur.pokedex.data.repository.userMessage
-import com.arthur.pokedex.domain.model.Pokemon
+import com.pokedex.app.data.repository.PokemonRepository
+import com.pokedex.app.data.repository.userMessage
+import com.pokedex.app.domain.model.Pokemon
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -78,4 +78,4 @@ class HomeViewModelFactory(private val repository: PokemonRepository) : ViewMode
     @Suppress("UNCHECKED_CAST") override fun <T : ViewModel> create(modelClass: Class<T>): T = HomeViewModel(repository) as T
 }
 
-private fun com.arthur.pokedex.domain.model.PokemonDetails.toPokemon() = Pokemon(id, name, imageUrl, types)
+private fun com.pokedex.app.domain.model.PokemonDetails.toPokemon() = Pokemon(id, name, imageUrl, types)

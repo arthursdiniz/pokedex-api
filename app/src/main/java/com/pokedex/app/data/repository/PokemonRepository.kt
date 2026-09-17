@@ -1,11 +1,11 @@
-package com.arthur.pokedex.data.repository
+package com.pokedex.app.data.repository
 
-import com.arthur.pokedex.data.remote.api.PokeApiService
-import com.arthur.pokedex.data.remote.dto.PokemonDetailsDto
-import com.arthur.pokedex.data.remote.dto.PokemonListItemDto
-import com.arthur.pokedex.domain.model.Pokemon
-import com.arthur.pokedex.domain.model.PokemonDetails
-import com.arthur.pokedex.domain.model.PokemonStat
+import com.pokedex.app.data.remote.api.PokeApiService
+import com.pokedex.app.data.remote.dto.PokemonDetailsDto
+import com.pokedex.app.data.remote.dto.PokemonListItemDto
+import com.pokedex.app.domain.model.Pokemon
+import com.pokedex.app.domain.model.PokemonDetails
+import com.pokedex.app.domain.model.PokemonStat
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope

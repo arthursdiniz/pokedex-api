@@ -1,15 +1,15 @@
-package com.arthur.pokedex
+package com.pokedex.app
 
-import com.arthur.pokedex.data.remote.dto.AbilitySlotDto
-import com.arthur.pokedex.data.remote.dto.ArtworkDto
-import com.arthur.pokedex.data.remote.dto.NamedResourceDto
-import com.arthur.pokedex.data.remote.dto.OtherSpritesDto
-import com.arthur.pokedex.data.remote.dto.PokemonDetailsDto
-import com.arthur.pokedex.data.remote.dto.SpritesDto
-import com.arthur.pokedex.data.remote.dto.StatSlotDto
-import com.arthur.pokedex.data.remote.dto.TypeSlotDto
-import com.arthur.pokedex.data.repository.toDetails
-import com.arthur.pokedex.domain.model.pokedexNumber
+import com.pokedex.app.data.remote.dto.AbilitySlotDto
+import com.pokedex.app.data.remote.dto.ArtworkDto
+import com.pokedex.app.data.remote.dto.NamedResourceDto
+import com.pokedex.app.data.remote.dto.OtherSpritesDto
+import com.pokedex.app.data.remote.dto.PokemonDetailsDto
+import com.pokedex.app.data.remote.dto.SpritesDto
+import com.pokedex.app.data.remote.dto.StatSlotDto
+import com.pokedex.app.data.remote.dto.TypeSlotDto
+import com.pokedex.app.data.repository.toDetails
+import com.pokedex.app.domain.model.pokedexNumber
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

@@ -1,11 +1,11 @@
-package com.arthur.pokedex.ui.details
+package com.pokedex.app.ui.details
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.arthur.pokedex.data.repository.PokemonRepository
-import com.arthur.pokedex.data.repository.userMessage
-import com.arthur.pokedex.domain.model.PokemonDetails
+import com.pokedex.app.data.repository.PokemonRepository
+import com.pokedex.app.data.repository.userMessage
+import com.pokedex.app.domain.model.PokemonDetails
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

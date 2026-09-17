@@ -1,4 +1,4 @@
-package com.arthur.pokedex.ui.components
+package com.pokedex.app.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
-import com.arthur.pokedex.domain.model.displayName
+import com.pokedex.app.domain.model.displayName
 
 fun typeColor(type: String) = when (type.lowercase()) {
     "fire" -> Color(0xFFEF5350); "water" -> Color(0xFF42A5F5); "grass", "bug" -> Color(0xFF66BB6A)

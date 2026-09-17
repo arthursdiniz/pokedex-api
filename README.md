@@ -31,7 +31,7 @@ Dados fornecidos por [PokéAPI](https://pokeapi.co/), usando `https://pokeapi.co
 ## Estrutura do projeto
 
 ```
-app/src/main/java/com/arthur/pokedex/
+app/src/main/java/com/pokedex/app/
 ├── data/remote, data/repository
 ├── domain/model
 ├── navigation

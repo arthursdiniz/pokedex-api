@@ -1,4 +1,4 @@
-package com.arthur.pokedex.domain.model
+package com.pokedex.app.domain.model
 
 data class Pokemon(val id: Int, val name: String, val imageUrl: String?, val types: List<String>)
 data class PokemonDetails(

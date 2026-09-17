@@ -1,4 +1,4 @@
-package com.arthur.pokedex.data.remote.dto
+package com.pokedex.app.data.remote.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

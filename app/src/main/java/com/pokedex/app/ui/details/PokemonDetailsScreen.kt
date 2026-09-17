@@ -1,4 +1,4 @@
-package com.arthur.pokedex.ui.details
+package com.pokedex.app.ui.details
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -20,13 +20,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.arthur.pokedex.domain.model.PokemonDetails
-import com.arthur.pokedex.domain.model.displayName
-import com.arthur.pokedex.domain.model.pokedexNumber
-import com.arthur.pokedex.ui.components.PokemonImage
-import com.arthur.pokedex.ui.components.TypeRow
-import com.arthur.pokedex.ui.home.ErrorContent
-import com.arthur.pokedex.ui.home.Loading
+import com.pokedex.app.domain.model.PokemonDetails
+import com.pokedex.app.domain.model.displayName
+import com.pokedex.app.domain.model.pokedexNumber
+import com.pokedex.app.ui.components.PokemonImage
+import com.pokedex.app.ui.components.TypeRow
+import com.pokedex.app.ui.home.ErrorContent
+import com.pokedex.app.ui.home.Loading
 
 @Composable fun DetailsRoute(viewModel: PokemonDetailsViewModel, onBack: () -> Unit) {
     val state = viewModel.uiState.collectAsStateWithLifecycle().value

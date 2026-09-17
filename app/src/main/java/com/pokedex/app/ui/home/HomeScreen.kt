@@ -1,4 +1,4 @@
-package com.arthur.pokedex.ui.home
+package com.pokedex.app.ui.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -25,11 +25,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.arthur.pokedex.domain.model.Pokemon
-import com.arthur.pokedex.domain.model.displayName
-import com.arthur.pokedex.domain.model.pokedexNumber
-import com.arthur.pokedex.ui.components.PokemonImage
-import com.arthur.pokedex.ui.components.TypeRow
+import com.pokedex.app.domain.model.Pokemon
+import com.pokedex.app.domain.model.displayName
+import com.pokedex.app.domain.model.pokedexNumber
+import com.pokedex.app.ui.components.PokemonImage
+import com.pokedex.app.ui.components.TypeRow
 
 @Composable fun HomeRoute(viewModel: HomeViewModel, onPokemonSelected: (Int) -> Unit) {
     val state = viewModel.uiState.collectAsStateWithLifecycle().value

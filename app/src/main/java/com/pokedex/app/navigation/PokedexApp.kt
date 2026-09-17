@@ -1,4 +1,4 @@
-package com.arthur.pokedex.navigation
+package com.pokedex.app.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -8,13 +8,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import androidx.navigation.NavType
-import com.arthur.pokedex.data.repository.PokemonRepository
-import com.arthur.pokedex.ui.details.DetailsRoute
-import com.arthur.pokedex.ui.details.DetailsViewModelFactory
-import com.arthur.pokedex.ui.details.PokemonDetailsViewModel
-import com.arthur.pokedex.ui.home.HomeRoute
-import com.arthur.pokedex.ui.home.HomeViewModel
-import com.arthur.pokedex.ui.home.HomeViewModelFactory
+import com.pokedex.app.data.repository.PokemonRepository
+import com.pokedex.app.ui.details.DetailsRoute
+import com.pokedex.app.ui.details.DetailsViewModelFactory
+import com.pokedex.app.ui.details.PokemonDetailsViewModel
+import com.pokedex.app.ui.home.HomeRoute
+import com.pokedex.app.ui.home.HomeViewModel
+import com.pokedex.app.ui.home.HomeViewModelFactory
 
 private const val HOME = "home"
 private const val DETAILS = "details"

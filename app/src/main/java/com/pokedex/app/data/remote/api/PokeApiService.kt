@@ -1,7 +1,7 @@
-package com.arthur.pokedex.data.remote.api
+package com.pokedex.app.data.remote.api
 
-import com.arthur.pokedex.data.remote.dto.PokemonDetailsDto
-import com.arthur.pokedex.data.remote.dto.PokemonListResponseDto
+import com.pokedex.app.data.remote.dto.PokemonDetailsDto
+import com.pokedex.app.data.remote.dto.PokemonListResponseDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.arthur.pokedex"
+    namespace = "com.pokedex.app"
     compileSdk = 35
     defaultConfig {
-        applicationId = "com.arthur.pokedex"
+        applicationId = "com.pokedex.app"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

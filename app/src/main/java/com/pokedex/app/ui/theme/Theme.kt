@@ -1,4 +1,4 @@
-package com.arthur.pokedex.ui.theme
+package com.pokedex.app.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
