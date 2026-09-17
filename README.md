@@ -37,7 +37,3 @@ app/src/main/java/com/pokedex/app/
 ├── navigation
 └── ui/home, ui/details, ui/components, ui/theme
 ```
-
-## Screenshots
-
-Adicione aqui capturas da lista e da tela de detalhes.
